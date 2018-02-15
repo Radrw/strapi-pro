@@ -40,7 +40,7 @@ Custom components will appear when you're creating a new item from the content t
 - `single-image` = A single image upload
 - `multi-image` = Multiple images update with a *set primary feature*
 - `location` = a Google maps location picker
-- e.t.c.... you can browser the [give-components folder](https://github.com/Radrw/strapi-pro/tree/master/packages/strapi-helper-plugin/lib/src/components/give-components) to get all the custom components
+- e.t.c.... you can browser the [custom-components folder](https://github.com/Radrw/strapi-pro/tree/master/packages/strapi-helper-plugin/lib/src/components/custom-components) to get all the custom components
 
 #### NOTE: All these components save data as string.
 
