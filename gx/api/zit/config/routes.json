@@ -1,0 +1,44 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/zit",
+      "handler": "Zit.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/zit/:_id",
+      "handler": "Zit.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/zit",
+      "handler": "Zit.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/zit/:_id",
+      "handler": "Zit.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/zit/:_id",
+      "handler": "Zit.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

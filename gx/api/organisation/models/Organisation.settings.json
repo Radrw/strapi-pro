@@ -1,0 +1,56 @@
+{
+  "connection": "default",
+  "collectionName": "organisationsc",
+  "info": {
+    "name": "organisation",
+    "description": "Hello there"
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "type_render": "string"
+    },
+    "website": {
+      "type": "string",
+      "type_render": "string"
+    },
+    "emails": {
+      "type": "email",
+      "type_render": "email"
+    },
+    "phone": {
+      "type": "string",
+      "type_render": "string"
+    },
+    "category": {
+      "type": "string",
+      "type_render": "cat-select",
+      "type_mongo": "string"
+    },
+    "selling": {
+      "type": "boolean",
+      "type_render": "toggle",
+      "type_mongo": "boolean"
+    },
+    "description": {
+      "type": "json",
+      "type_render": "wysiwyg",
+      "type_mongo": "string"
+    },
+    "impact": {
+      "type": "json",
+      "type_render": "wysiwyg",
+      "type_mongo": "string"
+    },
+    "location": {
+      "type": "json",
+      "type_render": "location",
+      "type_mongo": "string"
+    },
+    "profile-image": {
+      "type": "json",
+      "type_render": "single-image",
+      "type_mongo": "string"
+    }
+  }
+}

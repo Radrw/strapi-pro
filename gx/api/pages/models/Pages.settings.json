@@ -1,0 +1,32 @@
+{
+  "connection": "default",
+  "collectionName": "pages",
+  "info": {
+    "name": "pages",
+    "description": "Website Pages"
+  },
+  "attributes": {
+    "name": {
+      "type": "text"
+    },
+    "hero-title": {
+      "type": "text"
+    },
+    "seo-title": {
+      "type": "text"
+    },
+    "seo-description": {
+      "type": "text"
+    },
+    "featured-organisation": {
+      "type": "text",
+      "type_mongo": "text",
+      "type_render": "org-select"
+    },
+    "slider-images": {
+      "type": "text",
+      "type_mongo": "string",
+      "type_render": "multi-image"
+    }
+  }
+}

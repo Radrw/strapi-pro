@@ -1,0 +1,44 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/organisation",
+      "handler": "Organisation.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/organisation/:_id",
+      "handler": "Organisation.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/organisation",
+      "handler": "Organisation.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/organisation/:_id",
+      "handler": "Organisation.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/organisation/:_id",
+      "handler": "Organisation.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

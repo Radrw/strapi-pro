@@ -1,0 +1,21 @@
+{
+  "connection": "default",
+  "collectionName": "category",
+  "info": {
+    "name": "category",
+    "description": "Organisation Categories"
+  },
+  "attributes": {
+    "name": {
+      "type": "text"
+    },
+    "position": {
+      "type": "integer"
+    },
+    "icon": {
+      "type": "json",
+      "type_mongo": "string",
+      "type_render": "icon-select"
+    }
+  }
+}

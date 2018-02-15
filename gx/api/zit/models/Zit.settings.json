@@ -1,0 +1,13 @@
+{
+  "connection": "default",
+  "collectionName": "zit",
+  "info": {
+    "name": "zit",
+    "description": ""
+  },
+  "attributes": {
+    "name": {
+      "type": "json"
+    }
+  }
+}

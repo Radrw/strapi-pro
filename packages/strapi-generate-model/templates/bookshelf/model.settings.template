@@ -1,0 +1,12 @@
+{
+  "connection": "<%= connection %>",
+  "collectionName": "<%= idPluralized %>",
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+<%= attributes %>
+  }
+}

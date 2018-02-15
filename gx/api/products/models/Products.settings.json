@@ -1,0 +1,26 @@
+{
+  "connection": "default",
+  "collectionName": "products",
+  "info": {
+    "name": "products",
+    "description": "Organisations products/selling"
+  },
+  "attributes": {
+    "name": {
+      "type": "text"
+    },
+    "link": {
+      "type": "text"
+    },
+    "image": {
+      "type": "json",
+      "type_mongo": "string",
+      "type_render": "single-image"
+    },
+    "organisation": {
+      "type": "text",
+      "type_mongo": "string",
+      "type_render": "org-select"
+    }
+  }
+}

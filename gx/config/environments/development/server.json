@@ -1,0 +1,10 @@
+{
+  "host": "18.216.116.104",
+  "port": 1337,
+  "autoReload": {
+    "enabled": true
+  },
+  "cron": {
+    "enabled": false
+  }
+}
